@@ -1,8 +1,10 @@
-composer.lock
 vendor/bin/*
 vendor/doctrine/*
+vendor/monolog
 vendor/phpdocumentor/*
 vendor/phpspec/*
 vendor/phpunit/*
+vendor/psr/*
 vendor/sebastian/*
 vendor/symfony/*
+vendor/wixel/*

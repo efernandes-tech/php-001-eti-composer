@@ -13,4 +13,7 @@ PHP - Especializa TI - Composer
 - Defina a no "composer.json", em "require", a versão do PHP que o projeto executa
 	- Se for uma versao menor, sera lancado um erro
 - Defina as dependencias do ambiente de desenvolvimento em "require-dev"
-	- Com "^" o composer pega no minimo a versao 4.3
+	- Com "^" o composer pega no minimo a versao 4.3 ate a 5.0
+- Não altere arquivos dos projetos dentro da pasta "vendor", pq quando for feito um "composer update" vc perdera as alteracoes
+- Para pesquisar os pacotes
+	https://packagist.org/
