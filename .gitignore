@@ -1,0 +1,8 @@
+composer.lock
+vendor/bin/*
+vendor/doctrine/*
+vendor/phpdocumentor/*
+vendor/phpspec/*
+vendor/phpunit/*
+vendor/sebastian/*
+vendor/symfony/*

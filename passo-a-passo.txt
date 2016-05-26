@@ -1,4 +1,4 @@
-Composer - Especializa TI
+PHP - Especializa TI - Composer
 - Composer é um gerenciador de pacotes (dependências)
 	https://getcomposer.org/
 - Acesse a pasta do projeto pelo Prompt
@@ -10,4 +10,7 @@ Composer - Especializa TI
 	- O diretório "vendor" ficam as dependências do projeto
 - Insira no projeto o "require" que ira trazer todas as dependencias da aplicação
 	require_once './vendor/autoload.php';
-	
+- Defina a no "composer.json", em "require", a versão do PHP que o projeto executa
+	- Se for uma versao menor, sera lancado um erro
+- Defina as dependencias do ambiente de desenvolvimento em "require-dev"
+	- Com "^" o composer pega no minimo a versao 4.3
