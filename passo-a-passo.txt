@@ -1,0 +1,10 @@
+Composer - Especializa TI
+- Composer é um gerenciador de pacotes (dependências)
+	https://getcomposer.org/
+- Acesse a pasta do projeto pelo Prompt
+- Crie o arquivo JSON
+	composer init
+	- "require" e "require-dev" são as dependências dos ambientes de produção e desenvolvimento.
+- Atualize as dependencias do projeto
+	composer update
+	- O diretório "vendor" ficam as dependências do projeto

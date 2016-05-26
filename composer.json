@@ -1,0 +1,11 @@
+{
+    "name": "001/composer",
+    "description": "Curso Completo Sobre Composer",
+    "authors": [
+        {
+            "name": "Ederson Fernandes",
+            "email": "edersonluis.rf@gmail.com"
+        }
+    ],
+    "require": {}
+}
