@@ -8,3 +8,6 @@ Composer - Especializa TI
 - Atualize as dependencias do projeto
 	composer update
 	- O diretório "vendor" ficam as dependências do projeto
+- Insira no projeto o "require" que ira trazer todas as dependencias da aplicação
+	require_once './vendor/autoload.php';
+	
