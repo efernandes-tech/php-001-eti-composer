@@ -1,0 +1,21 @@
+PHP - Especializa TI - Composer
+
+- Curso base "http://www.especializati.com.br/categoria/11/curso-php-composer".
+- Composer é um gerenciador de pacotes (dependências).
+	https://getcomposer.org/
+- Acessar a pasta do projeto pelo "Prompt".
+- Criar o arquivo "JSON".
+	composer init
+	- "require" e "require-dev" são as dependências dos ambientes de produção e desenvolvimento.
+- Atualizar as dependencias do projeto.
+	composer update
+	- No diretório "vendor" ficam as dependências do projeto.
+- Inserir no projeto o "require" que ira trazer todas as dependencias da aplicação.
+	require_once './vendor/autoload.php';
+- Definir no "composer.json", em "require", a versão do PHP que o projeto executa.
+	- Se for uma versao menor, sera lancado um erro.
+- Definir as dependencias do ambiente de desenvolvimento em "require-dev".
+	- Com "^" o composer pega no minimo a versao "4.3" ate a "5.0".
+- Não alterar arquivos dos projetos dentro da pasta "vendor", pq quando for feito um "composer update" vc perdera as alteracoes.
+- Para pesquisar os pacotes.
+	https://packagist.org/
